@@ -253,10 +253,10 @@ hr {
 
 .form-section {
     clear: left;
-    background: url("../images/lion-pride-under-tree.jpg");
+    background: url("../images/lion-pride-under-tree.jpeg"); 
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 800px;
 }
 
 .signup-form {
