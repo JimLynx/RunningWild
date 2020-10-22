@@ -5,6 +5,7 @@
   padding: 0;
   border: 0;
 }
+
 body {
   font-family: "Lato";
   color: #777777;
@@ -29,7 +30,8 @@ h2 {
   letter-spacing: 4px;
 }
 
-#logo,#menu {
+#logo,
+#menu {
   line-height: 75px;
 }
 
@@ -54,8 +56,7 @@ h2 {
 #hero-image {
   height: 600px;
   width: 100%;
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1592513499/LIONS/Lions-Rescue_yimsoc.png")
-    no-repeat center center;
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1592513499/LIONS/Lions-Rescue_yimsoc.png") no-repeat center center;
   animation-name: hero-zoom;
   animation-duration: 10s;
   animation-fill-mode: forwards;
@@ -72,12 +73,14 @@ h2 {
   from {
     transform: scale(1.3);
   }
+
   to {
     transform: scale(1.6);
   }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
   color: #ffffff;
 }
 
@@ -147,6 +150,7 @@ hr {
 .right-about-heading h2 {
   text-align: right;
 }
+
 .right-about-heading p {
   text-align: right;
 }
@@ -169,8 +173,7 @@ hr {
 }
 
 #circle-cover-bg {
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/c_scale,e_fill_light:68,h_300,w_300/v1592514618/LIONS/cub1.jpg")
-    no-repeat center center;
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/c_scale,e_fill_light:68,h_300,w_300/v1592514618/LIONS/cub1.jpg") no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }
@@ -236,6 +239,12 @@ hr {
   margin: 1%;
   padding: 5%;
   color: #d2b48c;
+  transition: ease-in-out .6s;
+}
+
+.social-networks i:hover {
+  transform: scale(1.5);
+  color: red;
 }
 
 #photos {
@@ -252,11 +261,11 @@ hr {
 /* form */
 
 .form-section {
-    clear: left;
-    background: url("../images/lion-pride-under-tree.jpeg"); 
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+  clear: left;
+  background: url("../images/lion-pride-under-tree.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  height: 800px;
 }
 
 .signup-form {
@@ -269,7 +278,7 @@ hr {
   padding: 30px;
 }
 
-.signup-form h2{
+.signup-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
 }
@@ -296,7 +305,7 @@ hr {
   font-size: 100%;
   background-color: #f16c6b;
   color: #fafafa;
-  display:block;
+  display: block;
 }
 
 .join-button:hover {
@@ -305,33 +314,34 @@ hr {
 }
 
 /*end form*/
+
 @media screen and (max-width: 1365px) {
-#project-ethos {
+  #project-ethos {
     width: 65%;
     height: 1200px;
     margin: 0 auto;
-}
+  }
 
-#welcome {
+  #welcome {
     padding: 30px 0;
     margin-top: 0;
-}
+  }
 
-#left-about,
-#right-about {
+  #left-about,
+  #right-about {
     width: 100%;
     float: left;
     padding: 0;
-}
+  }
 
-#center-about {
+  #center-about {
     clear: both;
     width: 100%;
     float: left;
     padding: 0;
-}
+  }
 
-#support-img div {
+  #support-img div {
     width: 100%;
     float: left;
     clear: both;
@@ -341,57 +351,57 @@ hr {
     border-bottom: #fff;
     padding: 0;
     vertical-align: bottom;
-}
+  }
 
-hr {
+  hr {
     display: none;
-}
+  }
 }
 
 @media screen and (max-width: 943px) {
-#menu {
+  #menu {
     clear: left;
     float: left;
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-}
+  }
 
-#cover-text {
+  #cover-text {
     left: 0px;
-}
+  }
 
-#project-ethos {
+  #project-ethos {
     width: 90%;
     height: 1200px;
     margin: 0 auto;
-}
+  }
 
-.left-about-heading,
-.right-about-heading {
+  .left-about-heading,
+  .right-about-heading {
     width: inherit;
-}
+  }
 
-.left-about-heading h2,
-.right-about-heading h2 {
+  .left-about-heading h2,
+  .right-about-heading h2 {
     width: 100%;
     text-align: center;
-}
+  }
 
-.left-about-heading p,
-.right-about-heading p {
+  .left-about-heading p,
+  .right-about-heading p {
     text-align: center;
     padding: 0 20px 0 20px;
-}
+  }
 
-#photos {
+  #photos {
     column-count: 3;
+  }
+
 }
 
-
-
-@media screen and (max-width: 800px) {
-#photos {
-    column-count: 2;
-}
-}
+  @media screen and (max-width: 800px) {
+    #photos {
+      column-count: 2;
+    }
+  }
